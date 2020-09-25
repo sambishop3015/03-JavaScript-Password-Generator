@@ -62,6 +62,14 @@ header {
   min-height: 100px;
 }
 
+/* Password Settings */
+.setting {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 15px 0;
+}
+
 /* Card Footer */
 .card-footer {
   text-align: center;
@@ -98,6 +106,10 @@ header {
   padding: 14px 34px;
   text-align: center;
   cursor: pointer;
+}
+
+#clipboard {
+    display: flex;
 }
 
 /* Button by Element*/
